@@ -39,6 +39,6 @@ Philosopher 0 finishes eating and leaves the restaurant.
 Philosopher 4 finishes eating and leaves the restaurant.
 
 
-Then waiting for 75 seconds it prints out
+Then waiting for 30 seconds it prints out
 
 Now we're finishing.
