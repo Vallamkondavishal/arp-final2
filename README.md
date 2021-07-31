@@ -1,6 +1,7 @@
 #ASSIGNMENT2 (5071089 VISHAL VALLAMKONDA)
 
 **AIM**
+
 Using unnamed pipes make philosopher to enter, sit and eat endlessly and makes a philsopher to stop eating and exiting.
 
 **MODULES THAT NEED TO BE INSTALLED BEFORE**
