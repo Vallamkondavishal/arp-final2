@@ -19,7 +19,7 @@ class Philosopher(threading.Thread):
  
     def dine(self):			
         print ('Philosopher %s starts eating. '% self.index)
-        time.sleep(random.randint(1,110))
+        time.sleep(random.randint(1,10))
         self.running = False
         print ('Philosopher %s finishes eating and leaves the restaurant.' % self.index)
 
