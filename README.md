@@ -18,15 +18,25 @@ In this assignment i have used threading module to create a processes and commun
 **EXPECTED OUTPUT OF THE CODE**
 
 Philosopher 3 starts eating.
+
 Philosopher 0 starts eating.
+
 Philosopher 2 starts eating.
+
 Philosopher 1 starts eating.
+
 Philosopher 4 starts eating.
+
 Philosopher 2 finishes eating and leaves the restaurant.
+
 Philosopher 3 finishes eating and leaves the restaurant.
+
 Philosopher 1 finishes eating and leaves the restaurant.
+
 Philosopher 0 finishes eating and leaves the restaurant.
+
 Philosopher 4 finishes eating and leaves the restaurant.
+
 
 Then waiting for 75 seconds it prints out
 
