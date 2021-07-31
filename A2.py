@@ -14,12 +14,12 @@ class Philosopher(threading.Thread):
 
     def run(self):
         while(self.running):
-            time.sleep(random.randint(0,5))
+            time.sleep(random.randint(0,4))
             self.dine()      
  
     def dine(self):			
         print ('Philosopher %s starts eating. '% self.index)
-        time.sleep(random.randint(3,15))
+        time.sleep(random.randint(1,110))
         self.running = False
         print ('Philosopher %s finishes eating and leaves the restaurant.' % self.index)
 
@@ -32,7 +32,7 @@ def main():
 
     Philosopher.running = True
     for p in philosophers: p.start()
-    time.sleep(75)
+    time.sleep(30)
     Philosopher.running = False
     print ("Now we're finishing.")
  
